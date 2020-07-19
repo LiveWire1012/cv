@@ -41,7 +41,7 @@ body {
 	height: 100%;
 	width: 53%;
 	margin-left: 32px;
-	padding-top: 10px;
+	padding-top: 32px;
 }
 
 .name {
@@ -49,7 +49,7 @@ body {
 	font-size: 32px;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: 400;
-	padding-top: 10px;
+	padding-top: 32px;
 	text-align: center;
 }
 
