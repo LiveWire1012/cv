@@ -54,11 +54,13 @@ body {
 }
 
 .firstname, .lastname {
-	font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600
+/*	font-weight: 400;*/
 }
 
 .designation {
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-family: 'open sans', Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: 400;
 	font-size: 16px;
 	padding-top: 10px;
@@ -67,7 +69,6 @@ body {
 
 .profile, .education {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	font-weight: 400;
 	margin-left: 32px;
 	margin-right: 32px;
 	text-align: center;
@@ -77,6 +78,8 @@ body {
 	font-size: 24px;
 	padding-top: 24px;
 	padding-bottom: 4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
 	text-align: center;
 	border-bottom: solid;
 	border-bottom-color: #727272;
@@ -89,8 +92,8 @@ body {
 }
 
 .contact-info {
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	margin-left: 32px;
 	margin-right: 32px;
 	padding-top: 18px;
@@ -131,6 +134,8 @@ body {
 }
 
 .miscellaneous-header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
 	font-size: 24px;
 	padding-top: 8px;
 	padding-bottom: 4px;
@@ -146,11 +151,14 @@ body {
 }
 
 .job {
-	padding-bottom: 32px;
+	padding-bottom: 12px;
 }
 
 .job-position {
-	font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .job-content {
@@ -173,6 +181,7 @@ body {
 
 .job-description {
 	text-align: justify;
+    font-weight: 300;
 }
 
 .interests {
@@ -181,7 +190,7 @@ body {
 
 .interests-row {
 	width: 100%;
-	padding-bottom: 16px;
+	padding-bottom: 8px;
 }
 
 .interests-left, .interests-right {
@@ -196,4 +205,18 @@ body {
 .paper-publications-content {
 	padding-left: 8px;
 	padding-bottom: 16px;
+}
+
+.head {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    float: left;
+}
+
+.headr {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    float: right;
 }
